@@ -18,3 +18,10 @@ sqlite3 agenda.db
 .schema + nombre de la tabla
 select * from + nombre de la tabla
 .header on
+
+# crear repositorio en Docker Hub
+docker tag local-image:tagname new-repo:tagname
+docker push new-repo:tagname
+
+docker tag webapp:v1 301417/webapp:v1
+docker push 301417/webapp:v1
