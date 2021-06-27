@@ -44,7 +44,7 @@
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                               <button class="btn"><img src="https://th.bing.com/th/id/R9d4b0b4aae95bcd19a3ca0facde77e2e?rik=nYGQbhVI8Xoc4Q&pid=ImgRaw" height="90" width="90"></button>
                               <br></br>
-                              <a href="insert.html"><button type="button" class="btn" style="background:#C0C0C0">Insertar</button></a>
+                              <a href="insert.php"><button type="button" class="btn" style="background:#C0C0C0">Insertar</button></a>
                               <br></br>
                               <p class="mb-0">Da clic aquí para insertar un nuevo registro.</p>
                             </div>
@@ -56,7 +56,7 @@
                           <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                             <button class="btn"><img src="https://th.bing.com/th/id/Rf3929de28bbf1d2a5952bec55d704d5a?rik=nCUKjx2DaIs7ww&riu=http%3a%2f%2fwww.awninsurance.com.au%2fimages%2fvalidate-warranty-icon.gif&ehk=vonkbdMADqTYaFXe%2fLr5m7u9h47VJPuE2%2bNHf8FjpOM%3d&risl=&pid=ImgRaw"" height="90" width="90"></button>
                             <br></br>
-                            <a href="view.html"><button type="button" class="btn" style="background:#C0C0C0">Visualizar</button></a>
+                            <a href="view.php"><button type="button" class="btn" style="background:#C0C0C0">Visualizar</button></a>
                             <br></br>
                             <p class="mb-0">Da clic aquí para visualizar los registros existentes.</p>
                           </div>
