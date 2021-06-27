@@ -26,7 +26,7 @@
           </nav>
           <br></br>
 
-    <form method="POST" action="" class="main-form needs-validation" novalidate>
+    <form method="POST" action="insertarformulario.php" class="main-form needs-validation" novalidate>
       <br></br>
 
         <div class="form-group">
