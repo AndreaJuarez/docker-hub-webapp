@@ -59,7 +59,7 @@
     
     <div style="width: 500px;">
         <button type="submit" class="btn btn-primary" style="background:#0080FF">Guardar</button>
-        <a href="index.html"><button type="button" class="btn" style="background:#C0C0C0">Regresar</button></a>
+        <a href="index.php"><button type="button" class="btn" style="background:#C0C0C0">Regresar</button></a>
     </div>
 
     <br></br>

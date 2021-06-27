@@ -51,7 +51,7 @@
         </table>
 
     <div style="width: 500px;">
-        <a href="index.html"><button type="button" class="btn" style="background:#C0C0C0">Regresar</button></a>
+        <a href="index.php"><button type="button" class="btn" style="background:#C0C0C0">Regresar</button></a>
     </div>
 
   </body>
