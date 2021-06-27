@@ -11,8 +11,10 @@
 
 
   <body>
+
     <!--Vista inicial-->
     <main role="main" class="container my-auto">
+      
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
           <div class="container">
@@ -40,13 +42,21 @@
             </tr>
           </thead>
           <tbody>
-              <tr>
-                <td>$row['nombre']</td>
-                <td>$row['apellido_paterno']</td>
-                <td>$row['apellido_materno']</td>
-                <td>$row['email']</td>
-                <td>$row['telefono']</td>
+          <!--Consulta con php y sqlite3-->
+              <?php
+                $db = new SQLite3('agenda.db');
+                $results = $db->query('SELECT * FROM personas');
+
+                while ($row = $results->fetchArray()) { ?>
+                <tr>
+                <td> <?php echo $row['nombre']?> </td>
+                <td> <?php echo $row['apellido_paterno']?> </td>
+                <td> <?php echo $row['apellido_materno']?> </td>
+                <td> <?php echo $row['email']?> </td>
+                <td> <?php echo $row['telefono']?> </td>
               </tr>
+              <?php } ?>
+              
             </tbody>
         </table>
 

@@ -6,3 +6,15 @@ docker build -t webapp:v1 .
 
 # crear contenedor
 docker run -it -p 8080:8080 -v /workspace/docker-hub-webapp/docker:/docker --name webapp -h webapp webapp:v1
+
+# crear la bd
+sqlite3 agenda.db
+
+# leer schema.sql dentro de la bd
+.read schema.sql
+
+# visualización de tablas
+.table 
+.schema + nombre de la tabla
+select * from + nombre de la tabla
+.header on
